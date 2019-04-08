@@ -6,6 +6,11 @@
       <change beforePath="$PROJECT_DIR$/../fizzbuzz-application/out/production/fizzbuzz-application/FizzBuzzFinder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../fizzbuzz-application/src/FizzBuzzApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../fizzbuzz-application/src/FizzBuzzFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secrethandshake/HandshakeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secrethandshake/HandshakeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secrethandshake/HandshakeConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secrethandshake/HandshakeConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secrethandshake/SecretHandshakeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secrethandshake/SecretHandshakeApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/secrethandshake/SecretHandshakeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="227">
+              <caret line="33" column="85" lean-forward="true" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/secrethandshake/HandshakeConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -40,11 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/secrethandshake/HandshakeConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="47" column="157" selection-start-line="47" selection-start-column="157" selection-end-line="47" selection-end-column="157" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -59,8 +61,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>availableMovements</find>
+      <find>List&lt;String&gt; rightOrder = getAgentHandshake(askPrice())</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>movements</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,16 +82,17 @@
         <option value="$PROJECT_DIR$/src/secrethandshake/TwoListComparor.java" />
         <option value="$PROJECT_DIR$/src/secrethandshake/HandshakeConvertorTest.java" />
         <option value="$PROJECT_DIR$/src/secrethandshake/HandshakeConvertor.java" />
+        <option value="$PROJECT_DIR$/src/secrethandshake/SecretHandshakeApplication.java" />
         <option value="$PROJECT_DIR$/src/secrethandshake/HandshakeConverter.java" />
         <option value="$PROJECT_DIR$/src/secrethandshake/HandshakeConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/secrethandshake/SecretHandshakeApplication.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="776" />
-    <option name="height" value="741" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="2580" />
+    <option name="height" value="1460" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -91,6 +103,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,8 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,11 +157,12 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554482297105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554754830188" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/junit-jupiter-params-5.3.2.jar!/" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../most-sold-cameras-application/most-sellers-camera-application" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -177,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecretHandshakeApplication">
+  <component name="RunManager" selected="JUnit.HandshakeConverterTest">
     <configuration name="SecretHandshakeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="secrethandshake.SecretHandshakeApplication" />
       <module name="secret-handshake" />
@@ -206,22 +219,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandshakeConverterTest.convertNumberToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="secret-handshake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="secrethandshake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="secrethandshake" />
-      <option name="MAIN_CLASS_NAME" value="secrethandshake.HandshakeConverterTest" />
-      <option name="METHOD_NAME" value="convertNumberToList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HandshakeConverterTest.getAgentHandshake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="secret-handshake" />
       <extension name="coverage">
@@ -233,6 +230,22 @@
       <option name="PACKAGE_NAME" value="secrethandshake" />
       <option name="MAIN_CLASS_NAME" value="secrethandshake.HandshakeConverterTest" />
       <option name="METHOD_NAME" value="getAgentHandshake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandshakeConverterTest.getSecretHandshakes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="secret-handshake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secrethandshake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="secrethandshake" />
+      <option name="MAIN_CLASS_NAME" value="secrethandshake.HandshakeConverterTest" />
+      <option name="METHOD_NAME" value="getSecretHandshakes(int,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HandshakeConverterTest" />
         <item itemvalue="Application.SecretHandshakeApplication" />
+        <item itemvalue="JUnit.HandshakeConverterTest.getSecretHandshakes" />
         <item itemvalue="JUnit.HandshakeConverterTest.getAgentHandshake" />
         <item itemvalue="JUnit.HandshakeConverterTest.translateIntoSecretHandshakeMoves" />
-        <item itemvalue="JUnit.HandshakeConverterTest.convertNumberToList" />
-        <item itemvalue="JUnit.HandshakeConverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,46 +290,48 @@
       <workItem from="1554222937729" duration="6849000" />
       <workItem from="1554276271303" duration="29884000" />
       <workItem from="1554472861081" duration="9467000" />
+      <workItem from="1554734976540" duration="17325000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandshakeConvertorTest - 2019.04.03 at 14h 50m 09s.xml">
-      <configuration name="HandshakeConvertorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HandshakeConvertorTest - 2019.04.05 at 11h 40m 27s.xml">
-      <configuration name="HandshakeConvertorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HandshakeConvertorTest - 2019.04.05 at 11h 41m 08s.xml">
-      <configuration name="HandshakeConvertorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HandshakeConvertorTest - 2019.04.05 at 11h 41m 31s.xml">
-      <configuration name="HandshakeConvertorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HandshakeConvertorTest - 2019.04.05 at 11h 42m 09s.xml">
-      <configuration name="HandshakeConvertorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HandshakeConverterTest - 2019.04.05 at 12h 16m 58s.xml">
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 14h 48m 47s.xml">
       <configuration name="HandshakeConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandshakeConverterTest - 2019.04.05 at 12h 18m 25s.xml">
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 14h 52m 32s.xml">
       <configuration name="HandshakeConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandshakeConverterTest_convertNumberToList - 2019.04.05 at 12h 19m 56s.xml">
-      <configuration name="HandshakeConverterTest.convertNumberToList" configurationId="JUnit" />
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 14h 54m 11s.xml">
+      <configuration name="HandshakeConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandshakeConverterTest_translateIntoSecretHandshakeMoves - 2019.04.05 at 12h 21m 47s.xml">
-      <configuration name="HandshakeConverterTest.translateIntoSecretHandshakeMoves" configurationId="JUnit" />
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 14h 54m 34s.xml">
+      <configuration name="HandshakeConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandshakeConverterTest_getAgentHandshake - 2019.04.05 at 12h 29m 07s.xml">
-      <configuration name="HandshakeConverterTest.getAgentHandshake" configurationId="JUnit" />
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 15h 03m 32s.xml">
+      <configuration name="HandshakeConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandshakeConverterTest_getSecretHandshakes - 2019.04.08 at 15h 07m 38s.xml">
+      <configuration name="HandshakeConverterTest.getSecretHandshakes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandshakeConverterTest_getSecretHandshakes - 2019.04.08 at 15h 08m 14s.xml">
+      <configuration name="HandshakeConverterTest.getSecretHandshakes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 15h 11m 09s.xml">
+      <configuration name="HandshakeConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 16h 16m 58s.xml">
+      <configuration name="HandshakeConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandshakeConverterTest - 2019.04.08 at 16h 17m 11s.xml">
+      <configuration name="HandshakeConverterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46200000" />
+    <option name="totallyTimeSpent" value="63525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.1691843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -326,8 +341,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50096714" side_tool="true" weight="0.25302115" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40099832" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.73710483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26955074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,7 +350,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.41430947" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.36106488" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -386,47 +401,26 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/secrethandshake/ScannerLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="11" selection-start-line="8" selection-start-column="10" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/secrethandshake/TwoListComparor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#1567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/secrethandshake/ScannerLoop.java" />
+    <entry file="file://$PROJECT_DIR$/src/secrethandshake/TwoListComparor.java" />
     <entry file="file://$PROJECT_DIR$/src/secrethandshake/HandshakeConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="47" column="157" selection-start-line="47" selection-start-column="157" selection-end-line="47" selection-end-column="157" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/secrethandshake/HandshakeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="75">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/secrethandshake/SecretHandshakeApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="227">
+          <caret line="33" column="85" lean-forward="true" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/secrethandshake/HandshakeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

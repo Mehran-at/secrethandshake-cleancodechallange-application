@@ -1,53 +1,4 @@
 package secrethandshake;
-//  A point that can be a bug is, if Salesman says a price which has no handshake rules, agent can not do any handshake
-//      to be checked and application will be explode in that case. Also when we enter letters instead of numbers for
-//      price it will explodes.
-
-//  The terrible thing about my code in this example is one method has a bunch of classes. But that was my order to
-//      to create  this app only with one class plus Run class till later I understand where should i create classes,
-//      or maybe Interfaces, or maybe I could use extent other class. But for Interface usage, I know already what is
-//      going to happen. To my understanding basically everything in HandshakeConverter is HOW.
-import java.util.*;
-
-public class SecretHandshakeApplication {
-    static boolean truefalse = true;
-    public static void main(String[] args) {
-
-        HandshakeConverter handshakeConvertor = new HandshakeConverter();
-
-        System.out.println("Agent enters the shop and look for something and then he asks 'Hi, how much does this " +
-                "cost?' \n");
-        System.out.println("Salesman says a price. (enter a number here) \n");
-        Scanner scanner = new Scanner(System.in);
-        int price = scanner.nextInt();
-        System.out.println("It costs " + price + " Euro/s");
-
-
-        List<String> rightOrder = handshakeConvertor.getAgentHandshake(price);
-
-        System.out.println("For the sake of testing the application, Agent handshake order according to this price have"
-                + " to be: " + rightOrder);
-
-        System.out.println("\n Type every step of Agent's handshake in the right order and press Enter. Double press Enter when it's done: ");
-
-        Scanner input = new Scanner(System.in);
-        List<String> agentHandshake = new ArrayList<>();
-        while (truefalse)
-        {
-            String line = input.nextLine();
-            if (line.equals(""))
-                truefalse = false;
-            else
-                agentHandshake.add(line);
-        }
-        input.close();
-        System.out.println(agentHandshake);
-
-
-        System.out.println(handshakeConvertor.shopAssistant(agentHandshake, rightOrder));
-
-    }
-}
 
 //Hansel and Matilda watched a movie trailer recently about secret agents and decided to surprise Derek with a film evening this weekend. In the film, the main character enters an electronics shop and asks for the price of a particular item. Then the shop assistant says the price and depending on the numbers of that given price, they have to perform a secret handshake. After doing it right, he receives the secret mission. If he were to fail, then a hidden lasser ray would immediately vaporice him.
 //The handshake has the following characteristics:
@@ -71,3 +22,15 @@ public class SecretHandshakeApplication {
 //(If the result of the secret agent is the same, then he will give him the mission)
 //(Otherwise he will activate the laser ray and will vaporice the impostor)
 //--------------------------------------------------------------------------------------------------
+import java.util.*;
+
+public class SecretHandshakeApplication {
+
+    public static void main(String[] args) {
+
+        HandshakeConverter handshakeConverter = new HandshakeConverter();
+        List<String> agentHandshake = handshakeConverter.getAgentHandshake(handshakeConverter.askPrice());
+        List<String> answer = handshakeConverter.getAnswerFromUser();
+        System.out.println(handshakeConverter.shopAssistant(agentHandshake, answer));
+    }
+}
